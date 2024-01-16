@@ -1,0 +1,202 @@
+        body {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .main_box {
+            position: relative;
+            display: flex;
+            height: 100%;
+            width: 100%;
+            min-width: 1080px;
+            min-height: 700px;
+            overflow-y: hidden;
+            background-image: url(../image/launch_bg.png);
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            opacity:1;
+        }
+
+        .main_box .show_left,
+        .main_box .show_right {
+            position: relative;
+            flex: 1;
+            box-sizing: border-box;
+            border: none;
+            height: 100vh;
+        }
+
+        .main_box .show_left {
+            padding-left: 2vw;
+        }
+
+        .main_box .show_left .video_box {
+            position: absolute;
+            box-sizing: border-box;
+            top:50%;
+            left:50%;
+            margin-left:-200px;
+            margin-top:-370px;
+            bottom: 0;
+            width: 450px;
+            height: 725px;
+            background-image: url(../image/website/sansum.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .show_video {
+            position: absolute;
+            display: inline-block;
+            top: 9px;
+            left: 52px;
+            z-index: 5000;
+            width: 76%;
+            height: 97%;
+        }
+
+        .video_model {
+            display: inline-block;
+            z-index: 5001;
+            position: absolute;
+            width: 345px;
+            height: 602px;
+            left: 53px;
+            top: 7vh;
+            background-color: rgba(204, 204, 204, .4);
+        }
+
+        .video_model .play_icon {
+            display: inline-block;
+            position: absolute;
+            width: 20%;
+            height: auto;
+            margin: 0 auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .main_box .show_right .right_top {
+            display: block;
+            margin-left: 4vw;
+            margin-top: 20vh;
+            padding-left: 2vw;
+        }
+
+        .main_box .show_right .right_content {
+            display: flex;
+            box-sizing: border-box;
+            padding: 2vh 4vw;
+        }
+
+        .main_box .show_right .right_content .content_left {
+            flex: 1;
+            padding-left: 2vw;
+        }
+
+        .main_box .show_right .right_content .content_right {
+            flex: 1;
+            padding-right: 2vw;
+        }
+
+        .down {
+            display: inline-block;
+            width: 50%;
+            height: auto;
+        }
+
+        .down_icon {
+            display: inline-block;
+            margin-top: 20px;
+            width: 50%;
+            height: auto;
+        }
+
+        .main_box .show_right .right_bottom {
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+            color: #000000;
+            margin-left: 6vw;
+        }
+
+        .main_box .show_right .right_bottom p {
+            margin-bottom: 12px;
+        }
+
+        .is_mobile {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            min-height: 100vh;
+            min-width: 100vw;
+            overflow-x: hidden;
+            margin: 0 auto;
+            background-image: url(../image/bg_mobile.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 4vh 10vw;
+        }
+
+        .is_mobile .img_header {
+            display: block;
+            width: 100%;
+            margin-top: 8vh;
+            padding: 0 2vw;
+            text-align: center;
+        }
+
+        .is_mobile .img_content {
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
+
+        .is_mobile .img_content .img_handle {
+            position: absolute;
+            display: inline-block;
+            width: 30vw;
+            top: 4vh;
+            right: -12vw;
+        }
+
+        .is_mobile .img_content .blank_font {
+            display: inline-block;
+            width: 86%;
+            height: auto;
+            margin-top: 10vh;
+        }
+
+        .is_mobile .img_down_box {
+            position: relative;
+            display: block;
+            margin-top: 6vh;
+        }
+
+        .is_mobile .img_down_box .img_down {
+            display: block;
+            text-align: center;
+        }
+
+        .is_mobile .img_down_box .img_down img {
+            display: inline-block;
+            width: 52%;
+            height: auto;
+            margin-bottom: 2vh;
+        }
+
+        .is_mobile .foot_box {
+            position: relative;
+            display: block;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .is_mobile .foot_box p{
+            margin-bottom: 2vh;
+        }
